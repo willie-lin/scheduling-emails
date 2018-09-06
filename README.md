@@ -16,7 +16,7 @@ Spring Boot Quartz Scheduler用于安排稍后发送的电子邮件的示例。
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/callicoder/spring-boot-mysql-rest-api-tutorial.git
+git clone https://github.com/Willie-lin/scheduling-emails.git
 ```
 
 **2. Create MySQL database**
