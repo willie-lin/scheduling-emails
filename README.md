@@ -1,7 +1,7 @@
 # scheduling-emails
 Spring Boot Quartz Scheduler用于安排稍后发送的电子邮件的示例。 
 
-# Spring Boot Quartz Scheduler Example: Building an Email Scheduling app
+## Spring Boot Quartz Scheduler Example: Building an Email Scheduling app
 
 ## Requirements
 
@@ -35,10 +35,10 @@ open `src/main/resources/application.properties`, and change `spring.datasource.
 The project is using Gmail's SMTP server for sending emails. Whether you use Gmail or any other SMTP server, you'll need to configure the following mail properties accordingly -
 
 ```properties
-spring.mail.host=smtp.gmail.com
-spring.mail.port=587
-spring.mail.username=
-spring.mail.password=
+spring.mail.host = smtp.gmail.com
+spring.mail.port = 587
+spring.mail.username =
+spring.mail.password =
 ```
 
 If you're using Gmail, you need to allow the third party apps to send emails by following the instructions below -
